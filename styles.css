@@ -1,5 +1,7 @@
+/* changed values are: .navbar,.top-container,.top-cloud,.bottom-cloud,.mountain */
+
 /* Navigation Bar */
-.navbar{padding:0 0 4.5rem;}
+.navbar{padding:0 0 0.5rem;}
 .navbar-brand{font-family: 'Ubuntu';
 font-size: 2.5rem;
 font-weight: bold;}
@@ -49,20 +51,25 @@ p {
 .top-container {
   background-color: #eaf6f6;
   position: relative;
-  padding-top: 100px;
+  padding-top: 53px;
   color: #66bfbf;
 }
 .top-cloud {
   position: absolute;
-  right: 300px;
-  top: 40px;
+  left: 90px;
+
+  
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 50px;
-  bottom: 300px;
+  
+  right: 200px;
+  top: 190px;
+  
 }
+.mountain{width:100%;right: 30%;padding-top: 50px;}
+
 .profile-image {
   border-radius: 50%;
   width: 25%;
@@ -150,4 +157,12 @@ p {
   color: #FAFAFA;
   font-size: 0.75rem;
   padding: 20px 0;
+}
+
+@media screen and (max-width: 600px) {
+  .top-cloud{position: absolute;
+    left: 50px;
+    top: 280px;}
+    .bottom-cloud{visibility: hidden;}
+    .mountain{width:90%;align-content: center;}
 }
