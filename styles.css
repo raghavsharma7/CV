@@ -8,6 +8,7 @@ font-weight: bold;}
 .nav-item{padding: 0 10px;}
 .nav-link{font-size: 1.2rem;
 font-family: "Montserrat-Light";}
+.nav1:hover{color: #1A374D !important;}
 
 body {
   margin: 0px;
