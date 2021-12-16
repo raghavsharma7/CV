@@ -26,14 +26,38 @@
 </head>
 
 <body>
-    <div class="top-container">
+    <section class="top-container" id="title">
+        <div class="container-fluid">
+          <!-- Nav Bar -->
+          <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" style='color: #66bfbf'>
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link nav1" href="/Raghav_resume.pdf" style='color: #66bfbf'>Resume</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav1" href="#about" style='color: #66bfbf'>About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav1" href="#contact" style='color: #66bfbf'>Contact Me</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    <div class="top-container container-fluid" >
         <img class="top-cloud" src="images/cloud.png" alt="cloud-image">
         <h1>I'm Raghav</h1>
         <p class="top-para">a <span><u>pro</u></span>grammer</p>
         <img class="bottom-cloud" src="images/cloud.png" alt="cloud-image">
         <img src="images/mountain.png" alt="mountain-image">
     </div>
-    <div class="middle-container">
+</section>
+    <div class="middle-container container-fluid" id='about'>
         <div class="profile">
             <img class="profile-image" src="images/IMG_848.jpg" alt="image"
                >
@@ -41,7 +65,7 @@
             <p class="profile-para">Post Graduated from University Institute of Engineering and Technology, Chandigarh and Graduated from Guru Nanak Dev University, Amritsar in Electronics & Communication Engineering. A keen learner with analytical and problem solving attitude.</p>
         </div>
         <hr>
-        <div class="skills">
+        <div class="skills container-fluid">
             <h2>My Skills.</h2>
             <div class="skill-row">
                 <img class="skills-img1" src="images/python.png" alt="python-icon">
@@ -60,7 +84,7 @@
             </div>
         </div>
         <hr>
-        <div class="contact-me">
+        <div class="contact-me" id='contact'>
             <h2>Get In Touch</h2>
             
             <p class="contact-message">If you want to know more, contact me using below links.</p>
