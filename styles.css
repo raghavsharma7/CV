@@ -1,4 +1,4 @@
-/* changed values are: .navbar,.top-container,.top-cloud,.bottom-cloud,.mountain */
+
 
 /* Navigation Bar */
 .navbar{padding:0 0 0.5rem;}
@@ -54,6 +54,8 @@ p {
   padding-top: 53px;
   color: #66bfbf;
 }
+.bot-cloud-div{width: auto;}
+#mid_container{background-color:white;}
 .top-cloud {
   position: absolute;
   left: 90px;
@@ -159,10 +161,9 @@ p {
   padding: 20px 0;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 990px) {
   .top-cloud{position: absolute;
     left: 50px;
     top: 280px;}
-    .bottom-cloud{visibility: hidden;}
     .mountain{width:90%;align-content: center;}
 }
